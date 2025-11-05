@@ -12,3 +12,9 @@
   line-height: 1.6;
   font-size: 1.05rem;
 }
+.property {
+  background-color: rgb(233, 121, 121);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;;
+}
