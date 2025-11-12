@@ -6,7 +6,9 @@
 .card {
   border-radius: var(--card-radius);
 }
-
+h1 {
+  font-size: 3rem !important;
+}
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
@@ -19,6 +21,21 @@
   border-radius: 1rem;;
 }
 .card-body {
-  color: white;
   width: 100%;
+  border: none;
+  background-color: rgb(255, 255, 255) !important;
+   border-left: 1rem solid   rgb(255, 196, 0);;
+  border-radius: 1rem;
+}
+.card {
+  padding: 2rem;
+ 
+  
+}
+body {
+  background-color: rgb(46, 140, 248);
+  color: white;
+}
+.name {
+  color: white !important;
 }
